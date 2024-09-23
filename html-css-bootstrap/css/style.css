@@ -1,0 +1,75 @@
+/* Globale Style */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar-toggler {
+    transition: all 3s ease-in-out;
+}
+.navbar-toggler:hover {
+    background-color: dimgray;
+    transform: scale(1.1);
+    opacity: 2;
+}
+
+/* Responseve NAvbar */
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        text-align: center;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    header h2.w-50,
+    header p.w5-0 {
+        width: 75% !important;
+    }
+}
+
+@media (max-width: 280px) {
+    .navbar-expand-lg .navbar-brand {
+        font-size: 1rem !important;
+    }
+}
+
+/* Header Style */
+header h2 {
+    font-size: 3rem !important;
+    font-weight: bolder;
+}
+
+/* Responsive Header */
+@media (max-width: 1199.98px) {
+    header h2 {
+        font-size: 2.4rem !important;
+    }
+}
+@media (max-width: 767.98px) {
+    header h2.w-50,
+    header p.w5-0 {
+        width: 85% !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    header h2 {
+        font-size: 2rem !important;
+    }
+}
+
+
+.main .icon {
+    border-radius: .8rem;
+    width: 22%;
+}
+
+
+/* Contact Style */
+.contact .icon {
+    width: 10%;
+    border-radius: .8rem;
+}
